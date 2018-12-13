@@ -8,8 +8,8 @@
     box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
     transition: all .3s;
 
-    &:hover {
-        transform: translateY(-1rem) scale(1.03);
+    @include respond(tab-port) {
+        padding: 2rem;
     }
 
     &__icon {
@@ -20,5 +20,9 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
+    }
+
+    &:hover {
+        transform: translateY(-1rem) scale(1.03);
     }
 }
