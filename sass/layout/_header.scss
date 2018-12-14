@@ -15,9 +15,9 @@
         clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     }
 
-    @media (min-resolution: 192dpi) and (min-width: 37.5em),
-        (-webkit-min-pixel-ratio: 2) and (min-width: 37.5em),
-        (min-width: 125em) {
+    @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em),
+        only screen and (-webkit-min-pixel-ratio: 2) and (min-width: 37.5em),
+        only screen and (min-width: 125em) {
         background-image: linear-gradient(
             to right, 
             rgba($color-primary-light, 0.8), 

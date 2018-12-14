@@ -77,3 +77,6 @@ typings/
 
 #DynamoDB Local files 
 .dynamodb/ 
+
+# Build process CSS files
+style.*.css
